@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const Discord = require("discord.js");
 const config = require('../../Settings/Config.json');
 const db = require("quick.db");
-const moment = require("moment")
+const moment = require("moment");
 require('moment-duration-format');
 
 module.exports.beta = async(client, message, args) => {
